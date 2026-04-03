@@ -29,7 +29,7 @@ async def predict(file: UploadFile = File(...)):
             conf = float(box.conf[0])
             cls = int(box.cls[0])
 
-            if conf > 0.5:   # filter
+            if conf > 0.5:   
                 detections.append({
                     "class": class_names[cls],
                     "confidence": round(conf, 3),

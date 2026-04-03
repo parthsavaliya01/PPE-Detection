@@ -7,7 +7,7 @@ st.set_page_config(page_title="PPE Detection", layout="wide")
 
 st.title("🦺 PPE Detection Dashboard")
 
-# Sidebar
+
 st.sidebar.header("Settings")
 confidence_threshold = st.sidebar.slider("Confidence Threshold", 0.0, 1.0, 0.5)
 
@@ -19,12 +19,8 @@ def draw_boxes(image, detections):
 
     for det in detections:
         x1, y1, x2, y2 = det["bbox"]
-        label = f"{det['class']} ({det['confidence']})"
-
-        # Draw rectangle
+        label = f"{det['class']} ({det['confidence']})"    
         draw.rectangle([x1, y1, x2, y2], outline="red", width=3)
-
-        # Draw label background
         draw.text((x1, y1 - 10), label, fill="red")
 
     return image
@@ -40,7 +36,6 @@ if uploaded_file is not None:
         st.image(image, use_column_width=True)
 
     if st.button("🚀 Detect PPE"):
-
         files = {"file": uploaded_file.getvalue()}
 
         response = requests.post(
@@ -55,7 +50,6 @@ if uploaded_file is not None:
             if d["confidence"] >= confidence_threshold
         ]
 
-        # Draw boxes
         output_image = image.copy()
         output_image = draw_boxes(output_image, detections)
 
