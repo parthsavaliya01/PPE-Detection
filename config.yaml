@@ -1,0 +1,26 @@
+model:
+  path: weights/best.pt
+  name: yolov8n
+  device: cpu
+  confidence_threshold: 0.5
+  iou_threshold: 0.45
+  image_size: 640
+  classes: []
+
+output:
+  output_dir: output
+  image_dir: output/images
+  video_dir: output/videos
+  json_dir: output/json
+  log_dir: logs
+
+draw:
+  font_scale: 0.5
+  thickness: 2
+  box_color: [0, 255, 0]
+  text_color: [255, 255, 255]
+
+api:
+  host: 0.0.0.0
+  port: 8000
+  prefix: ""

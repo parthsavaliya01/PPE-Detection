@@ -1,0 +1,46 @@
+2026-07-01 12:21:44 - ppe_detection - INFO - Loading YOLO model from weights/best.pt
+2026-07-01 12:21:44 - ppe_detection - INFO - Model loaded successfully: yolov8n
+2026-07-01 12:25:11 - ppe_detection - INFO - Loading YOLO model from weights/best.pt
+2026-07-01 12:25:12 - ppe_detection - INFO - Model loaded successfully: yolov8n
+2026-07-01 12:26:47 - ppe_detection - INFO - Loading YOLO model from weights/best.pt
+2026-07-01 12:26:47 - ppe_detection - INFO - Model loaded successfully: yolov8n
+2026-07-01 12:27:04 - ppe_detection - INFO - Loading YOLO model from weights/best.pt
+2026-07-01 12:27:04 - ppe_detection - INFO - Model loaded successfully: yolov8n
+2026-07-01 12:30:03 - ppe_detection - INFO - Predicting image array
+2026-07-01 12:30:03 - ppe_detection - INFO - Starting inference on image
+2026-07-01 12:30:04 - ppe_detection - INFO - Inference completed with 1 detections
+2026-07-01 12:30:04 - ppe_detection - INFO - Image saved to output/images/prediction_download (1).jpeg
+2026-07-01 12:30:34 - ppe_detection - INFO - Predicting image array
+2026-07-01 12:30:34 - ppe_detection - INFO - Starting inference on image
+2026-07-01 12:30:35 - ppe_detection - INFO - Inference completed with 1 detections
+2026-07-01 12:30:35 - ppe_detection - INFO - Image saved to output/images/prediction_download.jpeg
+2026-07-01 14:17:13 - ppe_detection - INFO - Loading YOLO model from weights/best.pt
+2026-07-01 14:17:13 - ppe_detection - INFO - Model loaded successfully: yolov8n
+2026-07-01 14:17:50 - ppe_detection - INFO - Predicting image array
+2026-07-01 14:17:50 - ppe_detection - INFO - Starting inference on image
+2026-07-01 14:17:50 - ppe_detection - INFO - Inference completed with 1 detections
+2026-07-01 14:17:50 - ppe_detection - INFO - Image saved to output/images/prediction_download (1).jpeg
+2026-07-01 14:17:55 - ppe_detection - INFO - Predicting image array
+2026-07-01 14:17:55 - ppe_detection - INFO - Starting inference on image
+2026-07-01 14:17:56 - ppe_detection - INFO - Inference completed with 1 detections
+2026-07-01 14:17:56 - ppe_detection - INFO - Image saved to output/images/prediction_download (1).jpeg
+2026-07-01 14:18:01 - ppe_detection - INFO - Predicting image array
+2026-07-01 14:18:01 - ppe_detection - INFO - Starting inference on image
+2026-07-01 14:18:01 - ppe_detection - INFO - Inference completed with 0 detections
+2026-07-01 14:18:02 - ppe_detection - INFO - Image saved to output/images/prediction_final.jpg
+2026-07-01 14:18:08 - ppe_detection - INFO - Predicting image array
+2026-07-01 14:18:08 - ppe_detection - INFO - Starting inference on image
+2026-07-01 14:18:08 - ppe_detection - INFO - Inference completed with 2 detections
+2026-07-01 14:18:08 - ppe_detection - INFO - Image saved to output/images/prediction_test1.jpg
+2026-07-01 14:18:39 - ppe_detection - INFO - Predicting image array
+2026-07-01 14:18:39 - ppe_detection - INFO - Starting inference on image
+2026-07-01 14:18:39 - ppe_detection - INFO - Inference completed with 2 detections
+2026-07-01 14:18:39 - ppe_detection - INFO - Image saved to output/images/prediction_test2.jpeg
+2026-07-01 14:18:57 - ppe_detection - INFO - Predicting image array
+2026-07-01 14:18:57 - ppe_detection - INFO - Starting inference on image
+2026-07-01 14:18:57 - ppe_detection - INFO - Inference completed with 2 detections
+2026-07-01 14:18:57 - ppe_detection - INFO - Image saved to output/images/prediction_test2.jpeg
+2026-07-01 14:19:08 - ppe_detection - INFO - Predicting image array
+2026-07-01 14:19:08 - ppe_detection - INFO - Starting inference on image
+2026-07-01 14:19:08 - ppe_detection - INFO - Inference completed with 2 detections
+2026-07-01 14:19:08 - ppe_detection - INFO - Image saved to output/images/prediction_test2.jpeg

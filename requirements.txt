@@ -1,7 +1,10 @@
-fastapi
-uvicorn
-python-multipart
-opencv-python
-ultralytics
-numpy
-streamlit
+fastapi>=0.110.0
+uvicorn>=0.30.0
+python-multipart>=0.0.6
+opencv-python-headless>=4.9.0
+ultralytics>=8.2.0
+numpy>=1.26.0
+streamlit>=1.36.0
+pydantic>=2.8.0
+pydantic-settings>=2.2.0
+pyyaml>=6.0.2
